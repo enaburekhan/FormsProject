@@ -6,6 +6,15 @@
     <title>Sign Up Form</title> 
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head> 
+  <header>
+    <nav class="navbar">
+      <div>
+        <p>Already have an Intuit account?</p>
+        <a href="#"><p>I forgot my User ID or Password</p></a>
+      </div>
+      <button class="sign-in"><a href="#">Sign In</a></button>
+    </nav>    
+  <header>
  
   <form action="/login" method="post">
 
@@ -25,12 +34,10 @@
         Password
         <input type="password" name="Pass" required>
       </label>
-    </fieldset>
-      
-    <fieldset>
-      <label for="Confirm_Pass">
-        Confirm Password
+    
+      <label for="submit">
+        
         <input type="submit" name="submit" value="Create Account">
-          </label>
+      </label>
     </fieldset>
   </form>

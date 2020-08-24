@@ -1,4 +1,33 @@
-form {
+/*form {
  margin: 0 auto;
- background   
+ background-color: blueviolet;   
+}*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;  
+}
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 300px;
+}
+
+.navbar {
+  display: flex;  
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: pink;
+  align-items: center;  
+}
+
+ .sign-in {
+  display: flex;
+   
+  height: 0%; 
+
 }
