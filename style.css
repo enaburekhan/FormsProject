@@ -135,3 +135,15 @@ form input {
   text-align: center;
 
 }
+
+.footgray {
+  background-color: whitesmoke;
+  border: 1px solid #c6c7cc;
+  font: 7px/1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 375px;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
