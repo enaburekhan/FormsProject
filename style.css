@@ -3,31 +3,75 @@
  background-color: blueviolet;   
 }*/
 
-*,
-*:before,
-*:after {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;  
 }
 
 form {
   border: 1px solid #c6c7cc;
   border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: none;
+  font: 14px/1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
   overflow: hidden;
-  width: 300px;
+  width: 375px;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+
+}
+a {
+  font-size: 10px;
+  text-decoration: none;
+  color: rgb(79, 198, 238);
+padding-top: 0px;
+margin-top: 0px;
+}
+
+body{
+  background-color: whitesmoke;
 }
 
 .navbar {
   display: flex;  
-  flex-direction: row;
+  /*flex-direction: row;*/  
   justify-content: flex-end;
   background-color: pink;
-  align-items: center;  
+  /*align-items: center;*/ 
+  margin-top: 10px;
+  margin-right: 40px; 
+} 
+
+
+
+.top-text {
+  margin-right: 6px;
+  font-size: 12px;
+  line-height: 1.4;  
 }
 
- .sign-in {
-  display: flex;
-   
-  height: 0%; 
+#sign-in {
+  padding: 0px 25px;
+  height: 34px;
+  background-color: #3A42E9;
+  border-radius: 4px;
+  border: 1px solid darkblue;
+  cursor: pointer;
+  color: white;
+  
+}
 
+.infozone {
+  border: white;
+}
+
+.minortext {
+  font-size: 10px;
+  color: gray;
+}
+
+.centertext {
+  text-align: center;
+  
 }
