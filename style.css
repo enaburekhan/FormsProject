@@ -24,9 +24,8 @@ form {
 a {
   font-size: 10px;
   text-decoration: none;
-  color: rgb(79, 198, 238);
-padding-top: 0px;
-margin-top: 0px;
+  color: rgb(41, 96, 197);
+
 }
 
 body{
@@ -74,4 +73,15 @@ body{
 .centertext {
   text-align: center;
   
+} 
+
+form input {
+  background: #fff; 
+  border: 1px solid #c6c7cc;
+  /*box-shadow: inset 0 1px rgba(0,0,0, .1);*/
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%; 
+  border-radius: 3px;
 }
