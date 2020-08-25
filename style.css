@@ -15,6 +15,13 @@ form {
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   width: 300px;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+}
+
+body{
+  background-color: whitesmoke;
 }
 
 .navbar {
@@ -39,4 +46,8 @@ form {
 .minortext {
   font-size: 10px;
   color: gray;
+}
+
+.centertext {
+  text-align: center;
 }
