@@ -75,6 +75,30 @@ body{
   
 } 
 
+.icons {
+  margin-top: 35px;
+  text-align: center; 
+  /*background-color: #E3E3E3;*/ 
+}
+
+.thrinity-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 18px; 
+  /*background-color: #E3E3E3;*/
+}
+
+.thrinity-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3px;
+  color: #838888
+    
+}
+
+
 form input {
   background: #fff; 
   border: 1px solid #c6c7cc;
@@ -84,4 +108,8 @@ form input {
   margin-top: 6px;
   width: 100%; 
   border-radius: 3px;
+}
+#create {
+  background-color:  #3A42E9;
+  color: #fff;
 }
