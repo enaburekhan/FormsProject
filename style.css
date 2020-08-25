@@ -136,14 +136,22 @@ form input {
 
 }
 
-.footgray {
+form #footgray {
+  margin: 0;
+  padding: 0;
+}
+
+#footgray {
   background-color: whitesmoke;
-  border: 1px solid #c6c7cc;
+  border: 1px  solid #c6c7cc;
+  border-top: none;
   font: 7px/1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
-  overflow: hidden;
+  /*overflow: hidden;*/
   width: 375px;
   align-items: center;
   margin: auto;
   padding-bottom: 30px;
+  padding-top: 10px;
   text-align: center;
+
 }
