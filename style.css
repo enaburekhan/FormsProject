@@ -81,13 +81,26 @@ body{
   /*background-color: #E3E3E3;*/ 
 }
 
+.icons img {
+
+  height: 50px;
+}
+
 .thrinity-icons {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   font-size: 18px; 
+
+
   /*background-color: #E3E3E3;*/
 }
+
+.thrinity-icons img {
+
+  height:25px;
+}
+
 
 .thrinity-icons a {
   display: flex;
