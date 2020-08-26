@@ -1,5 +1,4 @@
 
-
 * {
   margin: 0;
   padding: 0;
@@ -16,15 +15,13 @@ form {
   align-items: center;
   margin: auto;
   background-color: white;
-  padding:30px ;
-
+  padding:30px;
 }
 
 a {
   font-size: 10px;
   text-decoration: none;
   color: rgb(41, 96, 197);
-
 }
 
 body{
@@ -55,13 +52,11 @@ body{
   border-radius: 4px;
   border: 1px solid darkblue;
   cursor: pointer;
-  color: white;
-  
+  color: white; 
 }
 
 .infozone {
-  border: white;
-  
+  border: white;  
 }
 
 .minortext {
@@ -70,18 +65,15 @@ body{
 }
 
 .centertext {
-  text-align: center;
-  
+  text-align: center; 
 } 
 
 .icons {
   margin-top: 35px;
-  text-align: center; 
-   
+  text-align: center;   
 }
 
 .icons img {
-
   height: 50px;
 }
 
@@ -90,11 +82,9 @@ body{
   justify-content: center;
   margin-bottom: 30px;
   font-size: 18px; 
-
 }
 
 .thrinity-icons img {
-
   height:25px;
 }
 
@@ -103,8 +93,7 @@ body{
   align-items: center;
   justify-content: center;
   margin-right: 3px;
-  color: #838888
-    
+  color: #838888    
 }
 
 
@@ -118,8 +107,7 @@ form input {
   border-radius: 3px;
 }
 
-.box-content {
-  
+.box-content { 
   padding: 10px;
 }
 #create {
@@ -133,7 +121,6 @@ form input {
   font-family: Helvetica, Arial, sans-serif;
   padding-top: 60px;
   text-align: center;
-
 }
 
 form #footgray {
@@ -153,17 +140,14 @@ form #footgray {
   padding-bottom: 15px; 
   padding-top: 15px;  
   text-align: center;
-  
  }
 
 .legal-consent {
-
   justify-content: space-evenly;
   width: 30%;
   list-style-type: none;
   align-items: center;
   margin: auto;
- 
 }
 
 footer ul a {
