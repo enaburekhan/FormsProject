@@ -2,7 +2,7 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> This is a sign-up form project. The form gets the user's information to create an account.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,9 +10,8 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML, CSS
+
 
 ## Live Demo
 
@@ -45,15 +44,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: https://github.com/enaburekhan
+- Twitter: https://twitter.com/enaburekhaneric
+- Linkedin: https://www.linkedin.com/in/eric-enaburekhan-801a28100/
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: https://github.com/ktyyctrk
+- Twitter: https://twitter.com/ktyyctrk
+- Linkedin: https://www.linkedin.com/in/kyuceturk/
 
 ## 🤝 Contributing
 
