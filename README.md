@@ -20,21 +20,24 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- There is no special prerequisites to run this project locally
+- navigate inside by typing cd FormsProject
 
 ### Setup
+- Clone this repository using git clone git@github.com:ktyyctrk/FormsProject.git
+- navigate inside by typing cd FormsProject
 
 ### Install
+No installation was required
 
 ### Usage
+open index.html file within your browser
 
 ### Run tests
+Running a test is not required.
 
 ### Deployment
 
@@ -66,9 +69,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Many thanks to Microverse for given my partner and I, the opportunity learn and grow.
 
 ## 📝 License
 
