@@ -6,6 +6,9 @@
 
 ![screenshot](./app_screenshot.png)
 
+The reference sign-up page screenshot is added below.
+![screenshot](./reference_app_screenshot.png)
+
 Additional description about the project and its features.
 
 ## Built With
@@ -15,8 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-https://rawcdn.githack.com/ktyyctrk/FormsProject/ce92a25643567fe3f2a66e16458ddc05ddae43ba/index.html
-
+https://raw.githack.com/ktyyctrk/FormsProject/feature-1/index.html
 
 ## Getting Started
 
