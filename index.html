@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head> 
   <body>
+    
     <!--header section with nav-bar and it's contents-->
   <header>
     <nav class="flex navbar">
@@ -14,9 +15,10 @@
         <p>Already have an Intuit account?</p>
         <a href="#"><p>I forgot my User ID or Password</p></a>
       </div>
-      <a href="#"><button id="sign-in">Sign In</button></a>
+      <button type="submit"><a href="#">Sign In</a></button>
     </nav>    
   </header>
+
   <!--Main section containing the form-->
   <main>  
     <section>
@@ -46,7 +48,6 @@
    </section>    
  
     <form>
-    
         <section class="centertext">
           <h3>Create an Intuit account</h3>
           <div>
@@ -56,7 +57,7 @@
         </section>
         <fieldset class="infozone">
           <div class="box-content">
-          <label for="Email" >Email Adress</label> 
+          <label for="Email" >Email Address</label> 
              
             <input type="email" name="Email" required>
           </div>
@@ -69,16 +70,14 @@
           <label for="Password">Password</label>
             <input type="password" name="Pass" required> 
           </div>
-
-
           <div class="box-content">
             <input type="submit" id="create" name="submit" value="Create Account">
           </div>
         </fieldset>
         <section class="PrivacyStatement">
-        <label for="footnote">
-          By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a> .
-        </label>
+          <label for="footnote">
+            By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a> .
+          </label>
         </section>
     
    
@@ -89,7 +88,8 @@
    
     </section>
   </main> 
-  <!--Footer section containing the Legal aggreements-->>
+
+  <!--Footer section containing the Legal aggreements-->
   <footer>
     <ul class="flex legal-consent">
       <li><a href="#">Legal</a></li>

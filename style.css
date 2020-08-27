@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 form {
@@ -15,39 +15,37 @@ form {
   align-items: center;
   margin: auto;
   background-color: white;
-  padding:30px;
+  padding: 30px;
 }
 
 a {
   font-size: 10px;
   text-decoration: none;
-  color: rgb(41, 96, 197);
+  color: rgb(41, 87, 173);
 }
 
-body{
+body {
   background-color: whitesmoke;
 }
 
 .flex {
   display: flex;
 }
-.navbar { 
+
+.navbar {
   justify-content: flex-end;
   margin-top: 10px;
-  margin-right: 40px; 
-} 
-
-
+  margin-right: 40px;
+}
 
 .top-text {
   margin-right: 6px;
   font-size: 12px;
-  line-height: 1.4;  
+  line-height: 1.4;
 }
 
-#sign-in {
-  padding: 0px 25px;
-  height: 34px;
+button {
+  padding: 0 25px;
   background-color: #3a42e9;
   border-radius: 4px;
   border: 1px solid darkblue;
@@ -55,8 +53,14 @@ body{
   color: white;
 }
 
+button a {
+  color: #fff;
+  font-size: 13px;
+  font-family: inherit;
+}
+
 .infozone {
-  border: white;  
+  border: white;
 }
 
 .minortext {
@@ -65,12 +69,12 @@ body{
 }
 
 .centertext {
-  text-align: center; 
-} 
+  text-align: center;
+}
 
 .icons {
   margin-top: 35px;
-  text-align: center;   
+  text-align: center;
 }
 
 .icons img {
@@ -81,41 +85,33 @@ body{
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 .thrinity-icons img {
-  height:25px;
+  height: 25px;
 }
-
-
-.thrinity-icons a {
-  align-items: center;
-  justify-content: center;
-  margin-right: 3px;
-  color: #838888    
-}
-
 
 form input {
-  background: #fff; 
+  background: #fff;
   border: 1px solid #c6c7cc;
   color: #636466;
   padding: 8px;
   margin-top: 6px;
-  width: 100%; 
+  width: 100%;
   border-radius: 3px;
 }
 
-.box-content { 
+.box-content {
   padding: 10px;
 }
+
 #create {
-  background-color:  #3A42E9;
+  background-color: #3a42e9;
   color: #fff;
 }
-  
-.PrivacyStatement{
+
+.PrivacyStatement {
   font-style: italic;
   font-size: 10px;
   font-family: Helvetica, Arial, sans-serif;
@@ -123,13 +119,8 @@ form input {
   text-align: center;
 }
 
-form #footgray {
-  margin: 0;
-  padding: 0;
-}
-
 #footgray {
-  background-color: whitesmoke;
+  background-color: #eceef1;
   border: 1px  solid #c6c7cc;
   border-top: none;
   font: 9px/1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -137,10 +128,15 @@ form #footgray {
   color: grey;
   align-items: center;
   margin: auto;
-  padding-bottom: 15px; 
-  padding-top: 15px;  
+  padding-bottom: 20px;
+  padding-top: 15px;
   text-align: center;
- }
+}
+
+form #footgray {
+  margin: 0;
+  padding: 0;
+}
 
 .legal-consent {
   justify-content: space-evenly;
@@ -151,13 +147,19 @@ form #footgray {
 }
 
 footer ul a {
-  color: gray  ;
+  color: gray;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;  
+  font-size: 11px;
+}
+
+.thrinity-icons a {
+  align-items: center;
+  justify-content: center;
+  margin-right: 3px;
+  color: #838888;
 }
 
 footer {
-  margin-top: 30px;
   width: 650px;
   font: 11px/1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #636466;
