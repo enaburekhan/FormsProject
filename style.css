@@ -36,6 +36,7 @@ body {
   justify-content: flex-end;
   margin-top: 10px;
   margin-right: 40px;
+  align-items: center;
 }
 
 .top-text {
@@ -44,19 +45,13 @@ body {
   line-height: 1.4;
 }
 
-button {
-  padding: 0 25px;
-  background-color: #3a42e9;
+.button {
+  padding: 5px 25px;
+  background-color: #0077c5;
   border-radius: 4px;
-  border: 1px solid darkblue;
+  border: 1px solid #4c4c4c;
   cursor: pointer;
   color: white;
-}
-
-button a {
-  color: #fff;
-  font-size: 13px;
-  font-family: inherit;
 }
 
 .infozone {
@@ -157,6 +152,12 @@ footer ul a {
   justify-content: center;
   margin-right: 3px;
   color: #838888;
+}
+
+.button a {
+  color: #fff;
+  font-size: 13px;
+  font-family: inherit;
 }
 
 footer {
