@@ -101,8 +101,8 @@ form input {
   padding: 10px;
 }
 
-#create {
-  background-color: #3a42e9;
+.create {
+  background-color:  #0077c5;
   color: #fff;
 }
 
@@ -114,7 +114,7 @@ form input {
   text-align: center;
 }
 
-#footgray {
+.footgray {
   background-color: #eceef1;
   border: 1px  solid #c6c7cc;
   border-top: none;
@@ -128,7 +128,7 @@ form input {
   text-align: center;
 }
 
-form #footgray {
+form .footgray {
   margin: 0;
   padding: 0;
 }
