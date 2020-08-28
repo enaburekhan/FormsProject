@@ -2,14 +2,13 @@
 
 # Project Name
 
-> This is a sign-up form project. The form gets the user's information to create an account.
+> This is a sign-up form project. The form gets the user's information to create an account. It consist of three inputs elements for user's email address, phone number which is recommended and the user's password. It also has a footer section that has three links: Legal, Privacy and security respectively. 
 
 ![screenshot](./app_screenshot.png)
 
 The reference sign-up page screenshot is added below.
 ![screenshot](./reference_app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
@@ -47,13 +46,13 @@ Running a test is not required.
 
 ## Authors
 
-👤 **Author1**
+👤 **Eric Enaburekhan**
 
 - Github: https://github.com/enaburekhan
 - Twitter: https://twitter.com/enaburekhaneric
 - Linkedin: https://www.linkedin.com/in/eric-enaburekhan-801a28100/
 
-👤 **Author2**
+👤 **Kutay Yuceturk **
 
 - Github: https://github.com/ktyyctrk
 - Twitter: https://twitter.com/ktyyctrk

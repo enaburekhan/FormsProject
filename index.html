@@ -7,8 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head> 
   <body>
-    
-    <!--header section with nav-bar and it's contents-->
+     
   <header>
     <nav class="flex navbar">
       <div class="top-text">
@@ -19,10 +18,11 @@
     </nav>    
   </header>
 
-  <!--Main section containing the form-->
   <main>  
     <section>
-      <figure class="icons">  
+      <h2 class="hidden">This is a hidden heading</h2> 
+
+      <figure class="word icons">  
           <img src="images/intuitlogo.png" alt="intuit-picture">    
       </figure>
         
@@ -36,8 +36,8 @@
      
    </section>    
  
-    <form>
-        <section class="centertext">
+    <form class="auto">
+        <section class="word centertext">
           <h3>Create an Intuit account</h3>
           <div>
           <p>One account for everything Intuit, including Mint.</p>
@@ -52,7 +52,7 @@
           </div>
           <div class="box-content">
             <label> Phone(recommended)</label> 
-            <input type="number" name="Phone"> 
+            <input type="tel" name="Phone"> 
             <p class="minortext">Standard call, messaging or data rates may apply.</p>
           </div> 
           <div class="box-content">
@@ -64,23 +64,21 @@
           </div>
         </fieldset>
         <section class="PrivacyStatement">
+          <h2 class="hidden">This is a legal agreement for account creation</h2> 
           <label>
             By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a> .
           </label>
         </section>
-    
-   
     </form>
-    <section class="footgray">
-    
+    <section class="flex auto footgray">
+      <h2 class="hidden">Privacy policy for all account users</h2>    
       <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
    
     </section>
   </main> 
 
-  <!--Footer section containing the Legal aggreements-->
-  <footer>
-    <ul class="flex legal-consent">
+  <footer class="word auto">
+    <ul class="flex auto legal-consent">
       <li><a href="#">Legal</a></li>
       <li><a href="#">Privacy</a></li>
       <li><a href="#">Security</a></li>
